@@ -1,6 +1,5 @@
 package com.wandr.kotlinjwt.controllers.auth
 
-data class AuthResponse (
+data class TokenResponse (
    val accessToken: String,
-   val refreshToken: String,
 )
